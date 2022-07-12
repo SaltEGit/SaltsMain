@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/78b96a5f48.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Build in HTML</title>
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="Images/Stewie.jpg" alt="baby with glasses" />
+      <ul class="nav-bar">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="https://github.com/SaltEGit">Github</a></li>
+        <li><a href="Pages/contact.html">Contact Info</a></li>
+      </ul>
+    </nav>
+    <script src="src/index.js"></script>
+    <div class="Hero">
+      <div class="hero-info">
+        <h1 id="initials">E.C.</h1>
+        <p>
+          I am a novice Web Developer, and planning to learning Hacking and
+          Cybersecurity!!
+        </p>
+        <div class="style-break"></div>
+        <div class="button">Hire Me</div>
+      </div>
+      <div>
+        <img class="Think" src="Images/Think.jpg" alt="Light bulb" />
+      </div>
+    </div>
+    <section>
+      <div class="about-me">
+        <img class="starter" src="Images/Pokemon.jpg" alt="Three Pokemon" />
+      </div>
+      <div class="Info">
+        <h2><a name="about-me">About Me</a></h2>
+        <p>
+          Born in CT, with a desire to move to Massachussetts or North Carolina.
+          I want to understand Full-Stack web development to better myself in
+          the future.
+        </p>
+      </div>
+    </section>
+    <section>
+      <i class="fa-solid fa-user-nurse"></i>
+      <i class="fa-solid fa-square-person-confined"></i>
+      <i class="fa-solid fa-person-praying" id="main"></i>
+      <i class="fa-solid fa-user-doctor"></i>
+      <i class="fa-solid fa-user-graduate"></i>
+    </section>
+
+    <section>
+        <form>
+        <h2>Contact Me</h2>
+        <div class="input-section">
+          <div class="input-group">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" value="John">
+          </div>
+          <div class="input-group">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" value="Doe">
+          </div>
+        </div>
+        <div class="input-section"> 
+          <input type="radio" id="office" name="office" value="office"></input>
+          <label for="office">Office</label>  
+          <input type="radio" id="remote" name="remote" value="remote"></input>
+          <label for="remote">Remote</label> 
+          <input type="radio" id="other" name="other" value="other"></input>
+          <label for="other">Other</label>   
+        </div>
+        <div class="input-section">
+          <input type="checkbox" id="contract" name="contract" value="contract"></input>
+          <label for="contract">Contract work</label>
+          <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+          <label for="full-time">Full-time work</label>
+          <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship"></input>
+          <label for="sponsorship">Sponsorship work</label>
+        </div>
+        <input class="button" type="submit" value="submit">Submit</input>
+      </form>
+      </section>
+    <footer>
+      <ul>
+        <li><a href="">Endnotes</a></li>
+        <li><a href="">Contacts</a></li>
+        <li><a href="https://github.com/SaltEGit">Github</a></li>
+        <li><a href="">Email</a></li>
+        <li><a href="">Favorites</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
